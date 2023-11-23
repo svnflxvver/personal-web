@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        font-family: 'Inter', sans-serif;
+    }
+}
+
+@layer components {
+    .card {
+        @apply bg-black/90 p-8 rounded-xl border-2  min-h-[260px]
+    }
+
+    .btn-primary{
+        @apply bg-pink-400 hover:bg-pink-300 hover:text-white px-4 py-2 rounded-md animate-bounce
+    }
+}
